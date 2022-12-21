@@ -1,0 +1,78 @@
+
+header{
+    background-image: url(/pexels-irina-iriser-937666.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+
+
+}
+span{
+    color: chocolate;
+    font-size: 120px;
+}
+span:hover{
+    color:black;
+    cursor: pointer;
+}
+h1{
+    font-family: 'Righteous', sans-serif;
+    font-size: 5rem;
+    color: aliceblue;
+}
+h1:hover{
+    color: chocolate;
+}
+h3{
+    color: aliceblue;
+    font-family: 'Caveat', cursive;
+
+}
+
+
+
+button{
+    padding: 13px 25px;
+    font-family: 'Righteous', sans-serif;
+    background-color:chocolate;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin-bottom: 30px;
+}
+button:hover{
+    background-color:aliceblue;
+    color: black;
+}
+p{
+    color: aliceblue;
+    font-size: 35px;
+    font-family: 'Caveat', cursive;  
+    font-weight: 800;
+  
+}
+#heading{
+    color: chocolate;
+}
+
+
+    
+
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 20px;
+    }
+    p{
+        font-size: 20px;
+    }
+    button{
+        padding: 8px 15px;
+    }
+}
